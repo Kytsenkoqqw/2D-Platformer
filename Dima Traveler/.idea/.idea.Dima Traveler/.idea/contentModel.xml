@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\maxxx\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maxxx\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Dima Traveler.654172623.00" t="ExcludeRecursive" />
+    <e p="C:\Users\maxxx\Documents\GitHub\2D-Platformer\Dima Traveler" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AssetStore" t="Include">
+          <e p="BigManJD" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="Cainos" t="Include">
+            <e p="Common" t="Include">
+              <e p="Script" t="Include">
+                <e p="Utils" t="Include">
+                  <e p="SecondOrderDynamics.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Pixel Art Platformer - Village Props" t="Include">
+              <e p="Changelog.txt" t="Include" />
+              <e p="Script" t="Include">
+                <e p="BoundingPlatform.cs" t="Include" />
+                <e p="Chest.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="ChestEditor.cs" t="Include" />
+                  <e p="ElevatorEditor.cs" t="Include" />
+                </e>
+                <e p="Elevator.cs" t="Include" />
+                <e p="MovingPlatform.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Third Party" t="Include">
+              <e p="Lucid Editor" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Attributes" t="Include">
+                    <e p="AssetsOnlyAttributeProcessor.cs" t="Include" />
+                    <e p="BlockquoteAttributeProcessor.cs" t="Include" />
+                    <e p="BoxGroupAttributeProcessor.cs" t="Include" />
+                    <e p="DisableIfAttributeProcessor.cs" t="Include" />
+                    <e p="DisableInEditModeAttributeProcessor.cs" t="Include" />
+                    <e p="DisableInPlayModeAttributeProcessor.cs" t="Include" />
+                    <e p="EnableIfAttributeProcessor.cs" t="Include" />
+                    <e p="FoldoutGroupAttributeProcessor.cs" t="Include" />
+                    <e p="GroupAttributeProcessor.cs" t="Include" />
+                    <e p="GUIColorAttributeProcessor.cs" t="Include" />
+                    <e p="HelpBoxAttributeProcessor.cs" t="Include" />
+                    <e p="HelpBoxIfAttributeProcessor.cs" t="Include" />
+                    <e p="HideIfAttributeProcessor.cs" t="Include" />
+                    <e p="HideLabelAttributeProcessor.cs" t="Include" />
+                    <e p="HorizontalGroupAttributeProcessor.cs" t="Include" />
+                    <e p="HorizontalLineAttributeProcessor.cs" t="Include" />
+                    <e p="IndentAttributeProcessor.cs" t="Include" />
+                    <e p="LabelTextAttributeProcessor.cs" t="Include" />
+                    <e p="LabelWidthAttributeProcessor.cs" t="Include" />
+                    <e p="OnValueChangedAttributeProcessor.cs" t="Include" />
+                    <e p="PropertyOrderAttributeProcessor.cs" t="Include" />
+                    <e p="ReadOnlyAttributeProcessor.cs" t="Include" />
+                    <e p="RequiredAttributeProcessor.cs" t="Include" />
+                    <e p="SectionHeaderAttributeProcessor.cs" t="Include" />
+                    <e p="ShowIfAttributeProcessor.cs" t="Include" />
+                    <e p="TabGroupAttributeProcessor.cs" t="Include" />
+                    <e p="TitleHeaderAttributeProcessor.cs" t="Include" />
+                    <e p="ValidateInputAttributeProcessor.cs" t="Include" />
+                  </e>
+                  <e p="EditorColors.cs" t="Include" />
+                  <e p="EditorIcons.cs" t="Include" />
+                  <e p="Experimental" t="Include">
+                    <e p="SimpleTreeView.cs" t="Include" />
+                    <e p="TextFieldPopup.cs" t="Include" />
+                    <e p="Toolbar.cs" t="Include" />
+                    <e p="TreeMenu.cs" t="Include" />
+                  </e>
+                  <e p="Extensions" t="Include">
+                    <e p="EnumExtensions.cs" t="Include" />
+                    <e p="SerializedPropertyExtensions.cs" t="Include" />
+                  </e>
+                  <e p="InspectorProperty" t="Include">
+                    <e p="EditableInspectorProperty.cs" t="Include" />
+                    <e p="InspectorButton.cs" t="Include" />
+                    <e p="InspectorField.cs" t="Include" />
+                    <e p="InspectorProperty.cs" t="Include" />
+                    <e p="InspectorPropertyGroup.cs" t="Include" />
+                    <e p="NonSerializedProperty.cs" t="Include" />
+                  </e>
+                  <e p="LucidEditor.cs" t="Include" />
+                  <e p="LucidEditorGUI.cs" t="Include" />
+                  <e p="LucidEditorGUILayout.cs" t="Include" />
+                  <e p="LucidEditorPrefs.cs" t="Include" />
+                  <e p="LucidEditorUtility.cs" t="Include" />
+                  <e p="LucidGUIEvent.cs" t="Include" />
+                  <e p="PropertyGroupProcessor.cs" t="Include" />
+                  <e p="PropertyProcessor.cs" t="Include" />
+                  <e p="SerializedPropertyUtility.cs" t="Include" />
+                  <e p="SerializeReferenceDropdown.cs" t="Include" />
+                  <e p="Utils" t="Include">
+                    <e p="InspectorPropertyUtil.cs" t="Include" />
+                    <e p="ProcessorUtil.cs" t="Include" />
+                    <e p="ReflectionUtil.cs" t="Include" />
+                    <e p="TypeUtil.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="License.txt" t="Include" />
+                <e p="Runtime" t="Include">
+                  <e p="Attributes" t="Include">
+                    <e p="AssetsOnlyAttribute.cs" t="Include" />
+                    <e p="BlockquoteAttribute.cs" t="Include" />
+                    <e p="BoxGroupAttribute.cs" t="Include" />
+                    <e p="ButtonAttribute.cs" t="Include" />
+                    <e p="DisableIfAttribute.cs" t="Include" />
+                    <e p="DisableInEditModeAttribute.cs" t="Include" />
+                    <e p="DisableInPlayModeAttribute.cs" t="Include" />
+                    <e p="DisableLucidEditorAttribute.cs" t="Include" />
+                    <e p="EnableIfAttribute.cs" t="Include" />
+                    <e p="FoldoutGroupAttribute.cs" t="Include" />
+                    <e p="GroupAttribute.cs" t="Include" />
+                    <e p="GUIColorAttribute.cs" t="Include" />
+                    <e p="HelpBoxAttribute.cs" t="Include" />
+                    <e p="HelpBoxIfAttribute.cs" t="Include" />
+                    <e p="HideIfAttribute.cs" t="Include" />
+                    <e p="HideLabelAttribute.cs" t="Include" />
+                    <e p="HideMonoScript.cs" t="Include" />
+                    <e p="HorizontalGroupAttribute.cs" t="Include" />
+                    <e p="HorizontalLineAttribute.cs" t="Include" />
+                    <e p="IndentAttribute.cs" t="Include" />
+                    <e p="LabelTextAttribute.cs" t="Include" />
+                    <e p="LabelWidthAttribute.cs" t="Include" />
+                    <e p="OnValueChangedAttribute.cs" t="Include" />
+                    <e p="PropertyOrderAttribute.cs" t="Include" />
+                    <e p="ReadOnlyAttribute.cs" t="Include" />
+                    <e p="RequiredAttribute.cs" t="Include" />
+                    <e p="SectionHeaderAttribute.cs" t="Include" />
+                    <e p="ShowIfAttribute.cs" t="Include" />
+                    <e p="ShowInInspectorAttribute.cs" t="Include" />
+                    <e p="TabGroupAttribute.cs" t="Include" />
+                    <e p="TitleHeaderAttribute.cs" t="Include" />
+                    <e p="ValidateInputAttribute.cs" t="Include" />
+                  </e>
+                  <e p="Enum.cs" t="Include" />
+                  <e p="PropertyGroupAttribute.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Dima Traveler.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
