@@ -8,9 +8,10 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpForce;
+    private bool isGrounded;
     private Transform _playerTransform;
     private Rigidbody2D _rb;
-    private bool _isGrounded;
+    
 
     private void Start()
     {
@@ -20,11 +21,15 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        _isGrounded = Physics2D.OverlapCircle(transform.position, 0.2f, LayerMask.GetMask("Ground"));
-
+        isGrounded = Physics2D.OverlapCircle(transform.position, 0.2f, LayerMask.GetMask("Ground"));
         float horizontalInput = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(horizontalInput, 0f) * _speed;
         _rb.velocity = new Vector2(movement.x, _rb.velocity.y);
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Jump();
+        }
 
         if (horizontalInput < 0)
         {
@@ -34,15 +39,10 @@ public class PlayerController : MonoBehaviour
         {
             _playerTransform.localScale = new Vector3(1,1,1);
         }
-
-        if (_isGrounded && Input.GetKey(KeyCode.W))
-        {
-            Jump();
-        }
     }
 
     private void Jump()
     {
-        _rb.velocity = new Vector2(_rb.velocity.y, _jumpForce);
+        _rb.velocity = new Vector2(_rb.velocity.x, _jumpForce);
     }
 }
